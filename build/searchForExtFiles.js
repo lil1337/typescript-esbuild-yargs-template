@@ -16,7 +16,7 @@ async function* getFiles(dir) {
 const routename = (r) => {
   let rsplit = r.split(/\\|\//gm).filter(e=>e.length);
   
-  return rsplit.join('____').replaceAll('C:','').replaceAll('.','__').replaceAll('__ts','').replaceAll('__js','').replaceAll(' ', "_");
+  return rsplit.join('____').replaceAll('C:','').replaceAll('.','__').replaceAll('__ts','').replaceAll('__js','').replaceAll(' ', "_").replaceAll('-','_');
 }
 
 function removeTsExtension(r){
