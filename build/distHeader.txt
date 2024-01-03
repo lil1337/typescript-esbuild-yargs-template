@@ -1,0 +1,19 @@
+/*
+	{name} {version}
+	{description}
+
+	© {author} {year}
+	License: {license}
+
+	fullDate: {date}
+	day: {day} 
+	month: {month}
+	monthName: {monthName}
+	year: {year}
+	second: {second}
+	millisecond: {millisecond}
+	unixTimestamp: {unixTimestamp}
+	hostname: {hostname}
+	username: {username}
+*/
+

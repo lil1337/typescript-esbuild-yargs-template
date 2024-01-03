@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "outDir": "build/",
+    "lib": ["ES2022"],
+    "target": "ES2022",
+    "sourceMap": true,
+    "allowJs": true, 
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+
+    "baseUrl": "./src",
+    "paths": {
+      // ...
+    }
+  },
+   
+  "exclude": ["node_modules"]
+}

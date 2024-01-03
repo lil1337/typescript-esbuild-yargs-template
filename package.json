@@ -1,0 +1,32 @@
+{
+  "name": "typescript-esbuild-yargs-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build",
+    "dev": "node build && node ."
+  },
+  "keywords": [
+    "template",
+    "example",
+    "typescript",
+    "esbuild",
+    "yargs",
+    "boilerplate"
+  ],
+  "author": "lil1337",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/tsconfig-paths": "^0.1.2",
+    "@types/node": "^20.10.6",
+    "@types/yargs": "^17.0.32",
+    "esbuild": "^0.19.11",
+    "typescript": "^5.3.3"
+  }
+}
